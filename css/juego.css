@@ -6,14 +6,17 @@ body {
   min-height: 100%;
   background-image: url(../images/adventure.jpg);
 }
+
 ul {
   padding-left: 0;
   list-style: none;
 }
+
 li {
   padding: 5px 0;
   animation: fadein 5s;
 }
+
 li::before {
   content: "• ";
   color: #EC6778;
@@ -29,6 +32,7 @@ li::before {
   margin: 0;
   vertical-align: top;
 }
+
 .col-40 {
   background: #FFF;
   padding: 30px;
@@ -37,7 +41,6 @@ li::before {
 
 .col-60 {
   background: #E84A5F;
-
 }
 
 #flecha{
@@ -51,6 +54,26 @@ li::before {
 #juego div {
   text-align: center;
   animation: fadein 2s;
+}
+
+#juego {
+  width: 606px;
+  height: 606px;
+}
+
+#objetivo img {
+  width: 200px;
+}
+
+.piezas img {
+  width: 200px;
+  height: 200px;
+  border: 1px solid rgb(15,124,116);
+  float: left;
+}
+
+#pieza9 {
+  opacity: 0;
 }
 
 @keyframes fadein {
